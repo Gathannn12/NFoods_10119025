@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NFoods 10119025</string>
+    <string name="logo">Logo</string>
+    <string name="nfood">NFood</string>
+    <string name="temukan_tempat_makan_disekitar_anda">Temukan Tempat Makan Disekitar Anda </string>
+    <string name="next">Next</string>
+
+    <!-- judul di viewpager -->
+    <string name="judul_1">Bingung mau makan dimana?</string>
+    <string name="judul_2">Mencarikan tempat makan disekitar lokasi anda!</string>
+    <string name="judul_3">Menemukan tempat makan disekitar anda!</string>
+
+    <!-- deskripsi di viewpager -->
+    <string name="desk_1">NFoods akan mencarikan tempat makan yang cocok untuk kamu!</string>
+    <string name="desk_2">NFoods akan mencarikan tempat makan termurah untuk kamu!</string>
+    <string name="desk_3">NFoods menemukan tempat makan terbaik disekitar kamu!</string>
+
+    <!-- string fragment_profile.xml -->
+    <string name="ini_profile_fragment">Ini Profile Fragment</string>
+    <string name="ini_about_fragment">Ini About Fragment</string>
+
+    <!-- string bottom_nav.xml -->
+    <string name="lbl_maps">Lokasi</string>
+    <string name="lbl_about">About App</string>
+    <string name="lbl_profile">Profil</string>
+
+    <!-- string fragment_profile.xml -->
+    <string name="profil_saya">Profil Saya</string>
+    <string name="nim_10119025">NIM : 10119025</string>
+    <string name="nama_adhira_fahri_gathan">Nama : Adhira Fahri Gathan</string>
+    <string name="kelas_if1">Kelas : IF1</string>
+    <string name="email_adhira_10119025_mahasiswa_unikom_ac_id">Email : adhira.10119025@mahasiswa.unikom.ac.id</string>
+
+    <!-- string fragment_about.xml -->
+    <string name="nfoods">NFoods</string>
+    <string name="about_aplikasi">About Aplikasi</string>
+    <string name="application_version_v1_1">Application Version: v1.1</string>
+    <string name="made_by_adhira_fahri_gathan">Made By Adhira Fahri Gathan</string>
+    <string name="since_2022">Since 2022</string>
+</resources>

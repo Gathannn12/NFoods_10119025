@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileFragment">
+
+    <TextView
+        android:id="@+id/lbl_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profil_saya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/foto_pribadi"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl_profile"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/foto_pribadi"/>
+
+    <LinearLayout
+        android:id="@+id/data_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foto_pribadi"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_nama_mahasiswa"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/nama_adhira_fahri_gathan"
+            android:textSize="18sp"
+            android:textColor="@color/grey"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lbl_nim"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/nim_10119025"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/lbl_kelas"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/kelas_if1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lbl_email"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/email_adhira_10119025_mahasiswa_unikom_ac_id"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
